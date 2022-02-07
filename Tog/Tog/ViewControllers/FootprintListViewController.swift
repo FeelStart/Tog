@@ -13,6 +13,12 @@ class FootprintListViewController: BaseViewController {
         super.viewDidLoad()
 
         navigationItem.title = "Tog"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(rightBarClicked(sender:)))
     }
 
+    @objc func rightBarClicked(sender: Any) {
+        let vc = CreateViewController()
+        vc.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

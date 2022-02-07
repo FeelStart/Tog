@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C537663927B124480097E53B /* MainInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C537663827B124480097E53B /* MainInputView.swift */; };
 		C54E8FDE27B1067B00E66F6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FDD27B1067B00E66F6C /* AppDelegate.swift */; };
 		C54E8FE027B1067B00E66F6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FDF27B1067B00E66F6C /* SceneDelegate.swift */; };
 		C54E8FE527B1067B00E66F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54E8FE327B1067B00E66F6C /* Main.storyboard */; };
@@ -19,6 +20,12 @@
 		C54E8FFD27B1095700E66F6C /* FootprintListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FFC27B1095700E66F6C /* FootprintListViewController.swift */; };
 		C54E8FFF27B1099000E66F6C /* FootprintListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FFE27B1099000E66F6C /* FootprintListContentView.swift */; };
 		C54E900127B10B0F00E66F6C /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900027B10B0F00E66F6C /* HomepageViewController.swift */; };
+		C54E900527B1165D00E66F6C /* FootprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900427B1165D00E66F6C /* FootprintViewModel.swift */; };
+		C54E900827B117CC00E66F6C /* FootprintListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900727B117CC00E66F6C /* FootprintListCell.swift */; };
+		C54E900A27B11B9B00E66F6C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900927B11B9B00E66F6C /* CreateViewController.swift */; };
+		C54E900C27B11BE900E66F6C /* CreateTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900B27B11BE900E66F6C /* CreateTextView.swift */; };
+		C54E900E27B11C7800E66F6C /* UIFont+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900D27B11C7800E66F6C /* UIFont+Config.swift */; };
+		C54E901027B11CB100E66F6C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900F27B11CB100E66F6C /* Config.swift */; };
 		D91D9EF8B9006C793F78272C /* Pods_Tog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF938C7F870B6E381174952 /* Pods_Tog.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +33,7 @@
 		4CB5E0DA58EF8CBFB3A40FEB /* Pods-Tog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tog.release.xcconfig"; path = "Target Support Files/Pods-Tog/Pods-Tog.release.xcconfig"; sourceTree = "<group>"; };
 		9603B7160F38448C54EF9FE8 /* Pods-Tog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tog.debug.xcconfig"; path = "Target Support Files/Pods-Tog/Pods-Tog.debug.xcconfig"; sourceTree = "<group>"; };
 		AEF938C7F870B6E381174952 /* Pods_Tog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C537663827B124480097E53B /* MainInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInputView.swift; sourceTree = "<group>"; };
 		C54E8FDA27B1067B00E66F6C /* Tog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54E8FDD27B1067B00E66F6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C54E8FDF27B1067B00E66F6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +48,12 @@
 		C54E8FFC27B1095700E66F6C /* FootprintListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintListViewController.swift; sourceTree = "<group>"; };
 		C54E8FFE27B1099000E66F6C /* FootprintListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintListContentView.swift; sourceTree = "<group>"; };
 		C54E900027B10B0F00E66F6C /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		C54E900427B1165D00E66F6C /* FootprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintViewModel.swift; sourceTree = "<group>"; };
+		C54E900727B117CC00E66F6C /* FootprintListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintListCell.swift; sourceTree = "<group>"; };
+		C54E900927B11B9B00E66F6C /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		C54E900B27B11BE900E66F6C /* CreateTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextView.swift; sourceTree = "<group>"; };
+		C54E900D27B11C7800E66F6C /* UIFont+Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Config.swift"; sourceTree = "<group>"; };
+		C54E900F27B11CB100E66F6C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,7 @@
 				C54E8FF327B1073F00E66F6C /* Config */,
 				C54E8FF227B1072F00E66F6C /* ViewControllers */,
 				C54E8FF127B1072400E66F6C /* Views */,
+				C54E900327B1161D00E66F6C /* ViewModels */,
 				C54E8FDD27B1067B00E66F6C /* AppDelegate.swift */,
 				C54E8FDF27B1067B00E66F6C /* SceneDelegate.swift */,
 				C54E8FF827B107BE00E66F6C /* MainViewController.swift */,
@@ -100,7 +115,10 @@
 		C54E8FF127B1072400E66F6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C54E900627B117B500E66F6C /* Cells */,
 				C54E8FFE27B1099000E66F6C /* FootprintListContentView.swift */,
+				C54E900B27B11BE900E66F6C /* CreateTextView.swift */,
+				C537663827B124480097E53B /* MainInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +130,7 @@
 				C54E8FF627B1077900E66F6C /* BaseNavigationController.swift */,
 				C54E8FFC27B1095700E66F6C /* FootprintListViewController.swift */,
 				C54E900027B10B0F00E66F6C /* HomepageViewController.swift */,
+				C54E900927B11B9B00E66F6C /* CreateViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -120,8 +139,26 @@
 			isa = PBXGroup;
 			children = (
 				C54E8FFA27B1080900E66F6C /* UIColor+Config.swift */,
+				C54E900D27B11C7800E66F6C /* UIFont+Config.swift */,
+				C54E900F27B11CB100E66F6C /* Config.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		C54E900327B1161D00E66F6C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C54E900427B1165D00E66F6C /* FootprintViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C54E900627B117B500E66F6C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C54E900727B117CC00E66F6C /* FootprintListCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		DAE519AFBE2FD810757CE4E0 /* Pods */ = {
@@ -130,7 +167,6 @@
 				9603B7160F38448C54EF9FE8 /* Pods-Tog.debug.xcconfig */,
 				4CB5E0DA58EF8CBFB3A40FEB /* Pods-Tog.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -251,12 +287,19 @@
 			files = (
 				C54E8FFF27B1099000E66F6C /* FootprintListContentView.swift in Sources */,
 				C54E8FF527B1075200E66F6C /* BaseViewController.swift in Sources */,
+				C54E901027B11CB100E66F6C /* Config.swift in Sources */,
 				C54E8FDE27B1067B00E66F6C /* AppDelegate.swift in Sources */,
 				C54E8FF927B107BE00E66F6C /* MainViewController.swift in Sources */,
 				C54E8FF727B1077900E66F6C /* BaseNavigationController.swift in Sources */,
 				C54E8FFD27B1095700E66F6C /* FootprintListViewController.swift in Sources */,
+				C54E900527B1165D00E66F6C /* FootprintViewModel.swift in Sources */,
 				C54E8FFB27B1080900E66F6C /* UIColor+Config.swift in Sources */,
+				C54E900A27B11B9B00E66F6C /* CreateViewController.swift in Sources */,
 				C54E8FE027B1067B00E66F6C /* SceneDelegate.swift in Sources */,
+				C54E900E27B11C7800E66F6C /* UIFont+Config.swift in Sources */,
+				C54E900C27B11BE900E66F6C /* CreateTextView.swift in Sources */,
+				C54E900827B117CC00E66F6C /* FootprintListCell.swift in Sources */,
+				C537663927B124480097E53B /* MainInputView.swift in Sources */,
 				C54E900127B10B0F00E66F6C /* HomepageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
