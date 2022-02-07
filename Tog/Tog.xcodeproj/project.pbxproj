@@ -19,9 +19,13 @@
 		C54E8FFD27B1095700E66F6C /* FootprintListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FFC27B1095700E66F6C /* FootprintListViewController.swift */; };
 		C54E8FFF27B1099000E66F6C /* FootprintListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E8FFE27B1099000E66F6C /* FootprintListContentView.swift */; };
 		C54E900127B10B0F00E66F6C /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900027B10B0F00E66F6C /* HomepageViewController.swift */; };
+		D91D9EF8B9006C793F78272C /* Pods_Tog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF938C7F870B6E381174952 /* Pods_Tog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CB5E0DA58EF8CBFB3A40FEB /* Pods-Tog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tog.release.xcconfig"; path = "Target Support Files/Pods-Tog/Pods-Tog.release.xcconfig"; sourceTree = "<group>"; };
+		9603B7160F38448C54EF9FE8 /* Pods-Tog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tog.debug.xcconfig"; path = "Target Support Files/Pods-Tog/Pods-Tog.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF938C7F870B6E381174952 /* Pods_Tog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54E8FDA27B1067B00E66F6C /* Tog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54E8FDD27B1067B00E66F6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C54E8FDF27B1067B00E66F6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91D9EF8B9006C793F78272C /* Pods_Tog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A893247E755CF2FF03B1545F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF938C7F870B6E381174952 /* Pods_Tog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C54E8FD127B1067B00E66F6C = {
 			isa = PBXGroup;
 			children = (
 				C54E8FDC27B1067B00E66F6C /* Tog */,
 				C54E8FDB27B1067B00E66F6C /* Products */,
+				DAE519AFBE2FD810757CE4E0 /* Pods */,
+				A893247E755CF2FF03B1545F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +124,16 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		DAE519AFBE2FD810757CE4E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9603B7160F38448C54EF9FE8 /* Pods-Tog.debug.xcconfig */,
+				4CB5E0DA58EF8CBFB3A40FEB /* Pods-Tog.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C54E8FEE27B1067C00E66F6C /* Build configuration list for PBXNativeTarget "Tog" */;
 			buildPhases = (
+				75129DB5D1D64834DCF5CA83 /* [CP] Check Pods Manifest.lock */,
 				C54E8FD627B1067B00E66F6C /* Sources */,
 				C54E8FD727B1067B00E66F6C /* Frameworks */,
 				C54E8FD827B1067B00E66F6C /* Resources */,
+				F2A227C2BBD1127BC8B8FC6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +201,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75129DB5D1D64834DCF5CA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A227C2BBD1127BC8B8FC6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tog/Pods-Tog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tog/Pods-Tog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tog/Pods-Tog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C54E8FD627B1067B00E66F6C /* Sources */ = {
@@ -332,6 +401,7 @@
 		};
 		C54E8FEF27B1067C00E66F6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9603B7160F38448C54EF9FE8 /* Pods-Tog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +430,7 @@
 		};
 		C54E8FF027B1067C00E66F6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB5E0DA58EF8CBFB3A40FEB /* Pods-Tog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
