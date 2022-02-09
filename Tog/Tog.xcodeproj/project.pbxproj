@@ -26,6 +26,7 @@
 		C54E900C27B11BE900E66F6C /* CreateTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900B27B11BE900E66F6C /* CreateTextView.swift */; };
 		C54E900E27B11C7800E66F6C /* UIFont+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900D27B11C7800E66F6C /* UIFont+Config.swift */; };
 		C54E901027B11CB100E66F6C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54E900F27B11CB100E66F6C /* Config.swift */; };
+		C5D615B527B20EE50031D2F8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D615B427B20EE50031D2F8 /* MainView.swift */; };
 		D91D9EF8B9006C793F78272C /* Pods_Tog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF938C7F870B6E381174952 /* Pods_Tog.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		C54E900B27B11BE900E66F6C /* CreateTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextView.swift; sourceTree = "<group>"; };
 		C54E900D27B11C7800E66F6C /* UIFont+Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Config.swift"; sourceTree = "<group>"; };
 		C54E900F27B11CB100E66F6C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C5D615B427B20EE50031D2F8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C54E8FFE27B1099000E66F6C /* FootprintListContentView.swift */,
 				C54E900B27B11BE900E66F6C /* CreateTextView.swift */,
 				C537663827B124480097E53B /* MainInputView.swift */,
+				C5D615B427B20EE50031D2F8 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				C54E8FFB27B1080900E66F6C /* UIColor+Config.swift in Sources */,
 				C54E900A27B11B9B00E66F6C /* CreateViewController.swift in Sources */,
 				C54E8FE027B1067B00E66F6C /* SceneDelegate.swift in Sources */,
+				C5D615B527B20EE50031D2F8 /* MainView.swift in Sources */,
 				C54E900E27B11C7800E66F6C /* UIFont+Config.swift in Sources */,
 				C54E900C27B11BE900E66F6C /* CreateTextView.swift in Sources */,
 				C54E900827B117CC00E66F6C /* FootprintListCell.swift in Sources */,

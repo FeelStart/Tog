@@ -30,6 +30,9 @@ class MainViewController: UITabBarController {
         view.backgroundColor = .backgroundColor
         tabBar.backgroundColor = .tabbarBackgroundColor
         setViewControllers([footprintVC, homepageVC], animated: false)
+
+        // tabbar item 放不下
+        // moreNavigationController
     }
 
 }
